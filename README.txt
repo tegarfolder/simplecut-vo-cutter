@@ -38,8 +38,8 @@ Step 3: Install Dependencies
 
 2. Reinstall PyTorch (required for GPU acceleration):
 
-   - For NVIDIA GPU (CUDA 12.1 – recommended):
-        pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+   - For NVIDIA GPU (CUDA 11.8 – recommended):
+        pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
    - For CPU-only systems:
         pip install torch torchvision torchaudio
